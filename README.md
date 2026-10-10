@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Focus — Smart To-Do List
 
 A full-stack task management application with a React/Vite frontend, FastAPI backend, MySQL database, and JWT authentication.
@@ -130,3 +131,7 @@ Task list filters: `?status=all|pending|completed|overdue&search=term`
 - This starter stores the access token in `localStorage`, which is convenient for a student project but more exposed to cross-site scripting than an HttpOnly secure cookie. For production use, consider an HttpOnly/Secure/SameSite cookie setup and additional hardening.
 - `Base.metadata.create_all()` is used for easy development startup. For production schema changes, add Alembic migrations.
 - Due-date validation in the UI prevents choosing past dates when creating/editing, but API clients can still submit past dates; this is intentional so overdue tasks can be represented.
+=======
+# smart-todo-list
+Advanced To-Do List Application
+>>>>>>> 76049899036784551dc92c9504e07ebc916ba3da
