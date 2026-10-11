@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Focus — Smart To-Do List
+
 
 A full-stack task management application with a React/Vite frontend, FastAPI backend, MySQL database, and JWT authentication.
 
