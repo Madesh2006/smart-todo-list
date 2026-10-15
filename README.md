@@ -1,4 +1,16 @@
+<<<<<<< HEAD
+# Focus — Smart To-Do List
 
+A full-stack task management application with a React/Vite frontend, FastAPI backend, MySQL database, and JWT authentication.
+
+## Features
+- User registration and login
+- Password hashing (Argon2)
+- Create, edit, complete, and delete tasks
+- Priority, category, due date, and description
+- Search and pending/completed/overdue filters
+- Task statistics and completion progress
+- Dark responsive UIuj
 
 ## Requirements
 - Python 3.11+
