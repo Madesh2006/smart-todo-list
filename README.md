@@ -76,3 +76,21 @@ smart-todo-list/
 │   ├── package.json
 │   └── vite.config.js
 └── README.md
+
+
+
+
+
+---
+
+## 🚀 Setup & Installation
+
+### 1. Database Setup (MySQL)
+
+Create the application database and a dedicated user:
+
+```sql
+CREATE DATABASE smart_todo CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER 'todo_user'@'localhost' IDENTIFIED BY 'change_this_password';
+GRANT ALL PRIVILEGES ON smart_todo.* TO 'todo_user'@'localhost';
+FLUSH PRIVILEGES;
